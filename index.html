@@ -3434,11 +3434,8 @@ html[data-theme="dark"] .cert-pill {
 }
 
 @keyframes tmMarqueeBottomToTop {
-  0% { transform: translateY(0%) translateZ(0px) rotateX(0deg); }
-  25% { transform: translateY(-12.5%) translateZ(6px) rotateX(-2deg); }
-  50% { transform: translateY(-25%) translateZ(0px) rotateX(0deg); }
-  75% { transform: translateY(-37.5%) translateZ(6px) rotateX(-2deg); }
-  100% { transform: translateY(-50%) translateZ(0px) rotateX(0deg); }
+  0% { transform: translateY(0%); }
+  100% { transform: translateY(-50%); }
 }
 
 @keyframes tmPopupGlassEntry {
@@ -3456,12 +3453,15 @@ html[data-theme="dark"] .cert-pill {
   .tm-announcements-wrapper {
     right: 12px !important;
     bottom: 50px !important;
+    contain: layout paint;
   }
   .tm-announcements-popup {
     right: 0 !important;
     bottom: calc(100% + 10px) !important;
-    width: calc(100vw - 24px) !important;
+    width: min(340px, calc(100vw - 32px)) !important;
+    max-width: calc(100vw - 32px) !important;
     height: min(380px, 58vh) !important;
+    contain: layout paint;
   }
 }
 
