@@ -1,0 +1,403 @@
+{
+  "users": [
+    {
+      "id": "usr_1",
+      "name": "Priy Ranjan Kumar",
+      "username": "priy_ranjan",
+      "email": "priyranjan@gmail.com",
+      "mobile": "9876543210",
+      "passwordHash": "password123",
+      "createdAt": 1786637463419
+    },
+    {
+      "id": "usr_2",
+      "name": "Khushboo Kumari",
+      "username": "khushboo_k",
+      "mobile": "9876543211",
+      "passwordHash": "password123",
+      "createdAt": 1786810263419
+    },
+    {
+      "id": "usr_3",
+      "name": "Amit Singh",
+      "username": "amit_singh",
+      "mobile": "9876543212",
+      "passwordHash": "password123",
+      "createdAt": 1786896663419
+    },
+    {
+      "id": "usr_1787112604089_669",
+      "name": "User .com",
+      "username": "user_user@gmail.com",
+      "mobile": "",
+      "passwordHash": "otp_1787112604088",
+      "createdAt": 1787112604089
+    },
+    {
+      "id": "usr_1787231503361_947",
+      "name": "Test User",
+      "username": "test_user_1787231503360",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787231503361
+    },
+    {
+      "id": "usr_1787231521158_324",
+      "name": "Test User",
+      "username": "test_user_1787231521157",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787231521158
+    },
+    {
+      "id": "usr_1787231583318_357",
+      "name": "Test User",
+      "username": "test_user_1787231583318",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787231583318
+    },
+    {
+      "id": "usr_1787240288250_579",
+      "name": "New Test User",
+      "username": "user_1787240288248",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787240288250
+    },
+    {
+      "id": "usr_1787240315968_648",
+      "name": "New Test User",
+      "username": "user_1787240315964",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787240315968
+    },
+    {
+      "id": "usr_1787240331982_78",
+      "name": "New Test User",
+      "username": "user_1787240331979",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787240331982
+    },
+    {
+      "id": "usr_1787240927966_414",
+      "name": "New Test User",
+      "username": "user_1787240927964",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787240927966
+    },
+    {
+      "id": "usr_1787242196023_594",
+      "name": "PRIY RANJAN KUMAR",
+      "username": "priyranjan",
+      "mobile": "",
+      "passwordHash": "12345",
+      "createdAt": 1787242196023
+    },
+    {
+      "id": "usr_1787244882587_61",
+      "name": "New Test User",
+      "username": "user_1787244882584",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787244882587
+    },
+    {
+      "id": "usr_1787244914400_530",
+      "name": "Test User",
+      "username": "test_user_1787244914399",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787244914400
+    },
+    {
+      "id": "usr_1787244931813_916",
+      "name": "Test User",
+      "username": "test_user_1787244931813",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787244931813
+    },
+    {
+      "id": "usr_1787245277428_447",
+      "name": "New Test User",
+      "username": "user_1787245277426",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787245277428
+    },
+    {
+      "id": "usr_1787245291077_310",
+      "name": "Test User",
+      "username": "test_user_1787245291076",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787245291077
+    },
+    {
+      "id": "usr_1787245300296_397",
+      "name": "Test User",
+      "username": "test_user_1787245300295",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787245300296
+    },
+    {
+      "id": "usr_1787247268293_816",
+      "name": "New Test User",
+      "username": "user_1787247268290",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787247268293
+    },
+    {
+      "id": "usr_1787247282464_109",
+      "name": "Test User",
+      "username": "test_user_1787247282463",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787247282464
+    },
+    {
+      "id": "usr_1787247451752_632",
+      "name": "New Test User",
+      "username": "user_1787247451750",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787247451752
+    },
+    {
+      "id": "usr_1787247476014_847",
+      "name": "Test User",
+      "username": "test_user_1787247476013",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787247476014
+    },
+    {
+      "id": "usr_1787247583721_961",
+      "name": "New Test User",
+      "username": "user_1787247583718",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787247583721
+    },
+    {
+      "id": "usr_1787247595374_430",
+      "name": "Test User",
+      "username": "test_user_1787247595373",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787247595374
+    },
+    {
+      "id": "usr_1787248716380_913",
+      "name": "New Test User",
+      "username": "user_1787248716378",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787248716380
+    },
+    {
+      "id": "usr_1787248726331_999",
+      "name": "Test User",
+      "username": "test_user_1787248726330",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787248726331
+    },
+    {
+      "id": "usr_1787248872935_266",
+      "name": "New Test User",
+      "username": "user_1787248872932",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787248872935
+    },
+    {
+      "id": "usr_1787248887870_477",
+      "name": "Test User",
+      "username": "test_user_1787248887845",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787248887870
+    },
+    {
+      "id": "usr_1787249028439_591",
+      "name": "New Test User",
+      "username": "user_1787249028438",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787249028439
+    },
+    {
+      "id": "usr_1787249039615_987",
+      "name": "Test User",
+      "username": "test_user_1787249039614",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787249039615
+    },
+    {
+      "id": "usr_1787249674440_173",
+      "name": "New Test User",
+      "username": "user_1787249674437",
+      "mobile": "9876549999",
+      "passwordHash": "password123",
+      "createdAt": 1787249674440
+    },
+    {
+      "id": "usr_1787249685793_404",
+      "name": "Test User",
+      "username": "test_user_1787249685793",
+      "mobile": "9999988888",
+      "passwordHash": "password123",
+      "createdAt": 1787249685793
+    }
+  ],
+  "otp_verifications": [
+    {
+      "id": "otp_1787249685515_903",
+      "mobileNumber": "priyranjan@gmail.com",
+      "otpHash": "08bbf604a3685cfaf4c706c69d2537ead454391fbd8ee88b98f7e3ea49616456",
+      "purpose": "forgot_password",
+      "createdAt": 1787249685515,
+      "expiresAt": 1787249985515,
+      "attempts": 1,
+      "usedAt": null,
+      "invalidated": false
+    },
+    {
+      "id": "otp_1787285917917_537",
+      "mobileNumber": "user_1787285917894@example.com",
+      "otpHash": "8396b606e27e02d13994c6eab090c20098df99edfa07a15092cf1ab6d380d87a",
+      "purpose": "register",
+      "createdAt": 1787285917917,
+      "expiresAt": 1787286217917,
+      "attempts": 1,
+      "usedAt": null,
+      "invalidated": false
+    },
+    {
+      "id": "otp_1787286030102_609",
+      "mobileNumber": "priyranjanchintu@gmail.com",
+      "otpHash": "83a8322d0c65d76b54397b788465acedaf45c6f7657c5cad3409744555bf7b8a",
+      "purpose": "login",
+      "createdAt": 1787286030101,
+      "expiresAt": 1787286330101,
+      "attempts": 0,
+      "usedAt": null,
+      "invalidated": true
+    },
+    {
+      "id": "otp_1787286161053_849",
+      "mobileNumber": "chintumahi502@gmail.com",
+      "otpHash": "ed04659eff2fc2f487493e1174c9c3a765cb24826c322dddb4565cb8cd5254bc",
+      "purpose": "register",
+      "createdAt": 1787286161053,
+      "expiresAt": 1787286461053,
+      "attempts": 0,
+      "usedAt": null,
+      "invalidated": false
+    },
+    {
+      "id": "otp_1787383673822_155",
+      "mobileNumber": "priyranjanchintu@gmail.com",
+      "otpHash": "a65d200d7f35e80c3ab455fe5608bd015c3242cd3d3598bc05187fcbb86f3b0b",
+      "purpose": "login",
+      "createdAt": 1787383673811,
+      "expiresAt": 1787383973811,
+      "attempts": 0,
+      "usedAt": null,
+      "invalidated": true
+    },
+    {
+      "id": "otp_1787394551731_864",
+      "mobileNumber": "priyranjanchintu@gmail.com",
+      "otpHash": "60e3149e1b50887d76a59743c8ee659543567a86dace2a6a6264fa0ae3ff4dcd",
+      "purpose": "login",
+      "createdAt": 1787394551726,
+      "expiresAt": 1787394851726,
+      "attempts": 0,
+      "usedAt": null,
+      "invalidated": false
+    }
+  ],
+  "attempts": [
+    {
+      "id": "att_1",
+      "userId": "usr_1",
+      "userName": "Priy Ranjan Kumar",
+      "username": "priy_ranjan",
+      "categoryKey": "stet_history_full",
+      "categoryName": "STET 2025: इतिहास (Full Mock Test - 150 Q)",
+      "correct": 142,
+      "wrong": 6,
+      "unanswered": 2,
+      "total": 150,
+      "rawScore": 140.5,
+      "maxScore": 150,
+      "percentage": 94,
+      "accuracy": 96,
+      "timeTakenSeconds": 5800,
+      "date": 1786896663419
+    },
+    {
+      "id": "att_2",
+      "userId": "usr_1",
+      "userName": "Priy Ranjan Kumar",
+      "username": "priy_ranjan",
+      "categoryKey": "stet_full",
+      "categoryName": "STET 2025: COMPUTER SCIENCE (Full Mock Test)",
+      "correct": 135,
+      "wrong": 12,
+      "unanswered": 3,
+      "total": 150,
+      "rawScore": 132,
+      "maxScore": 150,
+      "percentage": 88,
+      "accuracy": 92,
+      "timeTakenSeconds": 6100,
+      "date": 1786983063419
+    },
+    {
+      "id": "att_3",
+      "userId": "usr_2",
+      "userName": "Khushboo Kumari",
+      "username": "khushboo_k",
+      "categoryKey": "stet_history_full",
+      "categoryName": "STET 2025: इतिहास (Full Mock Test - 150 Q)",
+      "correct": 138,
+      "wrong": 10,
+      "unanswered": 2,
+      "total": 150,
+      "rawScore": 135.5,
+      "maxScore": 150,
+      "percentage": 90,
+      "accuracy": 93,
+      "timeTakenSeconds": 5900,
+      "date": 1786983063419
+    },
+    {
+      "id": "att_4",
+      "userId": "usr_3",
+      "userName": "Amit Singh",
+      "username": "amit_singh",
+      "categoryKey": "cf",
+      "categoryName": "Computer Fundamentals",
+      "correct": 22,
+      "wrong": 3,
+      "unanswered": 0,
+      "total": 25,
+      "rawScore": 21.25,
+      "maxScore": 25,
+      "percentage": 85,
+      "accuracy": 88,
+      "timeTakenSeconds": 1200,
+      "date": 1786983063419
+    }
+  ]
+}

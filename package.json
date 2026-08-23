@@ -1,0 +1,15 @@
+{
+  "name": "techmach-mock-test",
+  "version": "2.0.0",
+  "description": "TechMach Mock Test Platform with Secure Mobile OTP Authentication & Admin System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
