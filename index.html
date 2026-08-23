@@ -61,7 +61,7 @@
 }
 
 *,*::before,*::after{box-sizing:border-box;}
-html{-webkit-text-size-adjust:100%;}
+html{-webkit-text-size-adjust:100%;scrollbar-gutter:stable;}
 body{
   margin:0;
   background:var(--bg);
@@ -70,6 +70,10 @@ body{
   line-height:1.5;
   -webkit-font-smoothing:antialiased;
   overflow-x:hidden;
+}
+.screen, .navbar, .hero-banner-bg {
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 h1,h2,h3,h4{font-family:var(--font-display);margin:0;color:var(--text);}
 p{margin:0;}
@@ -1611,11 +1615,15 @@ a{color:var(--primary);}
 
 /* ---------- MODAL / TOAST ---------- */
 .modal-overlay{
-  position:fixed;inset:0;background:rgba(17,20,38,0.5);display:none;align-items:center;justify-content:center;z-index:100;padding:20px;
-  backdrop-filter:blur(2px);
+  position:fixed;inset:0;background:rgba(17,20,38,0.65);display:flex;align-items:center;justify-content:center;z-index:10000;padding:20px;
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+  opacity:0;visibility:hidden;pointer-events:none;
+  transition:opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change:opacity, transform;
+  transform:translateZ(0);isolation:isolate;backface-visibility:hidden;
 }
-.modal-overlay.active{display:flex;}
-.modal-box{background:var(--surface);border-radius:var(--radius-lg);padding:28px;max-width:420px;width:100%;box-shadow:var(--shadow-lg);animation:modalIn .18s ease;}
+.modal-overlay.active{opacity:1;visibility:visible;pointer-events:auto;}
+.modal-box{background:var(--surface);border-radius:var(--radius-lg);padding:28px;max-width:420px;width:100%;box-shadow:var(--shadow-lg);animation:modalIn .18s ease;transform:translateZ(0);backface-visibility:hidden;isolation:isolate;}
 @keyframes modalIn{from{opacity:0;transform:translateY(10px) scale(.98);}to{opacity:1;transform:translateY(0) scale(1);}}
 .modal-box h3{font-size:1.15rem;margin-bottom:8px;}
 .modal-box p{color:var(--text-muted);font-size:0.9rem;margin-bottom:18px;}
@@ -2288,6 +2296,10 @@ footer.site-footer, .site-footer {
   overflow-y:auto;
   box-shadow:var(--shadow-lg);
   animation:modalIn .2s ease;
+  transform:translateZ(0);
+  backface-visibility:hidden;
+  isolation:isolate;
+  will-change:transform, opacity;
 }
 .admin-stats-grid{
   display:grid;
@@ -2626,8 +2638,24 @@ html[data-theme="dark"] .site-footer {
 
 /* ============ FIXED VIEWPORT CENTERED CHAPTER & STUDY MATERIAL MODAL SYSTEM ============ */
 body.chapter-modal-open,
+body.has-active-modal,
 body.modal-open {
   overflow: hidden !important;
+}
+
+body.has-active-modal .ai-marquee-track,
+body.has-active-modal .profile-avatar-ring,
+body.has-active-modal .running-green-border::after,
+body.has-active-modal .tm-announcements-track,
+body.modal-open .ai-marquee-track,
+body.modal-open .profile-avatar-ring,
+body.modal-open .running-green-border::after,
+body.modal-open .tm-announcements-track,
+body.chapter-modal-open .ai-marquee-track,
+body.chapter-modal-open .profile-avatar-ring,
+body.chapter-modal-open .running-green-border::after,
+body.chapter-modal-open .tm-announcements-track {
+  animation-play-state: paused !important;
 }
 
 .chapter-modal-overlay,
@@ -2649,6 +2677,21 @@ body.modal-open {
   padding: 20px !important;
   box-sizing: border-box !important;
   overflow: hidden !important;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+  transform: translateZ(0);
+  isolation: isolate;
+  backface-visibility: hidden;
+}
+
+.chapter-modal-overlay.active,
+.course-modal-overlay.active {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
 }
 
 .chapter-modal,
@@ -3982,7 +4025,7 @@ html[data-theme="dark"] .cert-pill {
           <div style="display:flex; flex-direction:column; align-items:center; gap:8px;">
             <div class="profile-avatar-wrapper" title="Profile Avatar">
               <div class="profile-avatar-ring">
-                <img src="Image's\profile.jpg" alt="Profile Photo" class="profile-avatar-img">
+                <img src="./profile.jpg" alt="Profile Photo" class="profile-avatar-img">
               </div>
               <div class="profile-avatar-badge" title="Active"></div>
             </div>
@@ -4018,7 +4061,7 @@ html[data-theme="dark"] .cert-pill {
 
         <!-- HERO BANNER CAROUSEL / SLIDER -->
         <div class="hero-banner-slider-wrap">
-          <div class="hero-banner-bg" style="background-image: url('./Images/hero-bg.png');">
+          <div class="hero-banner-bg" style="background-image: url('./hero-bg.png');">
             <div class="hero-banner-overlay"></div>
             
             <div class="hero-carousel-outer">
@@ -4828,7 +4871,7 @@ html[data-theme="dark"] .cert-pill {
           <p class="techmach-about-para">TechMach Mock Test focuses on making exam preparation more practical and accessible by bringing practice, testing, and performance evaluation together in one place.</p>
         </div>
         <div class="techmach-about-media">
-          <img src="Image's\about-techmach.png" alt="TechMach Mock Test Students Practice" class="techmach-about-img">
+          <img src="./about-techmach.png" alt="TechMach Mock Test Students Practice" class="techmach-about-img">
         </div>
       </div>
     </div>
@@ -19939,10 +19982,10 @@ function openSubmitModal(){
   document.getElementById('modalAnswered').textContent = c.answered;
   document.getElementById('modalUnanswered').textContent = c.unanswered;
   document.getElementById('modalMarked').textContent = c.marked;
-  document.getElementById('submitModal').classList.add('active');
+  toggleModal('submitModal', true);
 }
 function closeSubmitModal(){
-  document.getElementById('submitModal').classList.remove('active');
+  toggleModal('submitModal', false);
 }
 
 function finishExam(autoSubmitted){
@@ -20407,23 +20450,42 @@ function updateNavAuth(){
   }
 }
 
+// Unified Modal Management Helper (Hardware Accelerated & Isolated)
+function toggleModal(modalId, isOpen) {
+  const modal = typeof modalId === 'string' ? document.getElementById(modalId) : modalId;
+  if (!modal) return;
+  if (isOpen) {
+    modal.classList.add('active');
+    document.body.classList.add('has-active-modal');
+    document.body.classList.add('modal-open');
+  } else {
+    modal.classList.remove('active');
+    const anyActive = document.querySelector('.modal-overlay.active, .course-modal-overlay.active, .chapter-modal-overlay.active');
+    if (!anyActive) {
+      document.body.classList.remove('has-active-modal');
+      document.body.classList.remove('modal-open');
+      document.body.classList.remove('chapter-modal-open');
+    }
+  }
+}
+
 // Modal Helpers
 function openLoginModal(){
-  document.getElementById('loginModal').classList.add('active');
+  toggleModal('loginModal', true);
 }
 function openLoginModalWithNotice(){
   setLoginNotice('Please login to continue', 'Login or create an account to start this test and save your progress.');
   openLoginModal();
 }
 function closeLoginModal(){
-  document.getElementById('loginModal').classList.remove('active');
+  toggleModal('loginModal', false);
   clearLoginNotice();
 }
 function openRegisterModal(){
-  document.getElementById('registerModal').classList.add('active');
+  toggleModal('registerModal', true);
 }
 function closeRegisterModal(){
-  document.getElementById('registerModal').classList.remove('active');
+  toggleModal('registerModal', false);
   clearLoginNotice();
 }
 
@@ -20437,19 +20499,19 @@ function openAdminDashboardModal(){
 
   if (isAdminAuthenticated || isAutoAdmin) {
     renderAdminDashboard();
-    document.getElementById('adminDashboardModal').classList.add('active');
+    toggleModal('adminDashboardModal', true);
   } else {
     document.getElementById('adminKeyInput').value = '';
-    document.getElementById('adminPasscodeModal').classList.add('active');
+    toggleModal('adminPasscodeModal', true);
   }
 }
 
 function closeAdminPasscodeModal(){
-  document.getElementById('adminPasscodeModal').classList.remove('active');
+  toggleModal('adminPasscodeModal', false);
 }
 
 function closeAdminDashboardModal(){
-  document.getElementById('adminDashboardModal').classList.remove('active');
+  toggleModal('adminDashboardModal', false);
 }
 
 
@@ -20514,7 +20576,7 @@ window.openAdminAddAnnModal = function() {
   document.getElementById('admAnnFormOrder').value = list.length + 1;
   document.getElementById('admAnnFormStatus').value = 'active';
   updateAdminAnnFormPreview();
-  document.getElementById('adminAnnFormModal').classList.add('active');
+  toggleModal('adminAnnFormModal', true);
 };
 
 window.openAdminEditAnnModal = function(id) {
@@ -20529,11 +20591,11 @@ window.openAdminEditAnnModal = function(id) {
   document.getElementById('admAnnFormOrder').value = item.order || 1;
   document.getElementById('admAnnFormStatus').value = (item.active !== false && item.enabled !== false) ? 'active' : 'disabled';
   updateAdminAnnFormPreview();
-  document.getElementById('adminAnnFormModal').classList.add('active');
+  toggleModal('adminAnnFormModal', true);
 };
 
 window.closeAdminAnnFormModal = function() {
-  document.getElementById('adminAnnFormModal').classList.remove('active');
+  toggleModal('adminAnnFormModal', false);
 };
 
 window.updateAdminAnnFormPreview = function() {
@@ -20732,10 +20794,10 @@ function showUserHistoryModal(userId, userName){
     });
   }
 
-  document.getElementById('userHistoryModal').classList.add('active');
+  toggleModal('userHistoryModal', true);
 }
 function closeUserHistoryModal(){
-  document.getElementById('userHistoryModal').classList.remove('active');
+  toggleModal('userHistoryModal', false);
 }
 
 
@@ -20812,7 +20874,7 @@ document.addEventListener('DOMContentLoaded', () => {
           isAdminAuthenticated = true;
           closeAdminPasscodeModal();
           await renderAdminDashboard();
-          document.getElementById('adminDashboardModal').classList.add('active');
+          toggleModal('adminDashboardModal', true);
           showToast(res.message || 'Admin Access Granted!', 'success');
         } else {
           showToast(res.message || 'Invalid Admin Security Key.', 'danger');
@@ -20845,7 +20907,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (closeHist) closeHist.addEventListener('click', closeUserHistoryModal);
   if (closePass) closePass.addEventListener('click', closeAdminPasscodeModal);
   if (closeForg) closeForg.addEventListener('click', () => {
-    document.getElementById('forgotPasswordModal').classList.remove('active');
+    toggleModal('forgotPasswordModal', false);
   });
 
   const adminBackHome = document.getElementById('adminBackToHomeBtn');
@@ -20860,7 +20922,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (userHistBack) {
     userHistBack.addEventListener('click', () => {
       closeUserHistoryModal();
-      document.getElementById('adminDashboardModal').classList.add('active');
+      toggleModal('adminDashboardModal', true);
     });
   }
 
@@ -20868,7 +20930,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.modal-overlay').forEach(overlay => {
     overlay.addEventListener('click', (e) => {
       if (e.target === overlay) {
-        overlay.classList.remove('active');
+        toggleModal(overlay, false);
       }
     });
   });
@@ -20890,13 +20952,13 @@ document.addEventListener('DOMContentLoaded', () => {
   if (openForgotLink) {
     openForgotLink.addEventListener('click', () => {
       closeLoginModal();
-      forgotModal.classList.add('active');
+      toggleModal(forgotModal, true);
     });
   }
-  if (closeForgotBtn) closeForgotBtn.addEventListener('click', () => forgotModal.classList.remove('active'));
+  if (closeForgotBtn) closeForgotBtn.addEventListener('click', () => toggleModal(forgotModal, false));
   if (forgotBackLogin) {
     forgotBackLogin.addEventListener('click', () => {
-      forgotModal.classList.remove('active');
+      toggleModal(forgotModal, false);
       openLoginModal();
     });
   }
