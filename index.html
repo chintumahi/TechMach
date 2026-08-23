@@ -9,18 +9,18 @@
 <!-- WhatsApp / Facebook Link Preview -->
 <meta property="og:title" content="TechMach Technology - Master Computer Science & Tech Exams">
 <meta property="og:description" content="Practice. Test Your Knowledge. Improve Your Score.">
-<meta property="og:image" content="https://techmach-mock.vercel.app/og-image.png">
-<meta property="og:image:secure_url" content="https://techmach-mock.vercel.app/og-image.png">
+<meta property="og:image" content="https://tech-mach.vercel.app/og-image.png">
+<meta property="og:image:secure_url" content="https://tech-mach.vercel.app/og-image.png">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="675">
-<meta property="og:url" content="https://techmach-mock.vercel.app/">
+<meta property="og:url" content="https://tech-mach.vercel.app/">
 <meta property="og:type" content="website">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="TechMach Technology - Master Computer Science & Tech Exams">
 <meta name="twitter:description" content="Practice. Test Your Knowledge. Improve Your Score.">
-<meta name="twitter:image" content="https://techmach-mock.vercel.app/og-image.png">
+<meta name="twitter:image" content="https://tech-mach.vercel.app/og-image.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <style>
@@ -2643,18 +2643,9 @@ body.modal-open {
   overflow: hidden !important;
 }
 
-body.has-active-modal .ai-marquee-track,
-body.has-active-modal .profile-avatar-ring,
-body.has-active-modal .running-green-border::after,
-body.has-active-modal .tm-announcements-track,
-body.modal-open .ai-marquee-track,
-body.modal-open .profile-avatar-ring,
-body.modal-open .running-green-border::after,
-body.modal-open .tm-announcements-track,
-body.chapter-modal-open .ai-marquee-track,
-body.chapter-modal-open .profile-avatar-ring,
-body.chapter-modal-open .running-green-border::after,
-body.chapter-modal-open .tm-announcements-track {
+body.has-active-modal :not(.modal-overlay *):not(.chapter-modal-overlay *):not(.course-modal-overlay *),
+body.modal-open :not(.modal-overlay *):not(.chapter-modal-overlay *):not(.course-modal-overlay *),
+body.chapter-modal-open :not(.modal-overlay *):not(.chapter-modal-overlay *):not(.course-modal-overlay *) {
   animation-play-state: paused !important;
 }
 

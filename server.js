@@ -13,13 +13,17 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Serve static frontend assets
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(__dirname));
 
 // Register API Routes
 app.use('/api', authRoutes);
 
-// Fallback route to serve index.html for SPA routing
+// Fallback route to serve index.html for SPA routing (excluding static asset extensions)
 app.get('*', (req, res) => {
+  if (req.path.match(/\.(png|jpg|jpeg|gif|svg|ico|css|js)$/i)) {
+    return res.status(404).send('Asset not found');
+  }
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
