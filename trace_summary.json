@@ -1,0 +1,1834 @@
+{
+  "totalEvents": 67040,
+  "paintCount": 1753,
+  "layoutCount": 475,
+  "styleRecalcCount": 480,
+  "topEvents": [
+    [
+      "RunTask",
+      20277
+    ],
+    [
+      "UpdateLayer",
+      11051
+    ],
+    [
+      "AnimationFrame",
+      1906
+    ],
+    [
+      "Paint",
+      1753
+    ],
+    [
+      "PipelineReporter",
+      1566
+    ],
+    [
+      "BeginImplFrameToSendBeginMainFrame",
+      1566
+    ],
+    [
+      "Animation",
+      1565
+    ],
+    [
+      "EndActivateToSubmitCompositorFrame",
+      1526
+    ],
+    [
+      "SubmitCompositorFrameToPresentationCompositorFrame",
+      1526
+    ],
+    [
+      "SubmitToReceiveCompositorFrame",
+      1526
+    ],
+    [
+      "ReceiveCompositorFrameToStartDraw",
+      1526
+    ],
+    [
+      "StartDrawToSwapStart",
+      1526
+    ],
+    [
+      "Swap",
+      1526
+    ],
+    [
+      "SwapEndToPresentationCompositorFrame",
+      1526
+    ],
+    [
+      "Commit",
+      1238
+    ],
+    [
+      "PaintImage",
+      1064
+    ],
+    [
+      "SendBeginMainFrameToCommit",
+      968
+    ],
+    [
+      "IntersectionObserverController::computeIntersections",
+      956
+    ],
+    [
+      "AnimationFrame::Render",
+      956
+    ],
+    [
+      "AnimationFrame::StyleAndLayout",
+      956
+    ],
+    [
+      "EndCommitToActivation",
+      756
+    ],
+    [
+      "Activation",
+      756
+    ],
+    [
+      "InvalidateLayout",
+      507
+    ],
+    [
+      "BeginFrame",
+      494
+    ],
+    [
+      "DrawFrame",
+      483
+    ]
+  ],
+  "paintEvents": [
+    {
+      "args": {
+        "data": {
+          "clip": [
+            0,
+            0,
+            747,
+            0,
+            747,
+            4484,
+            0,
+            4484
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 1,
+          "nodeName": "#document"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 1195,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 1172,
+      "tid": 11864,
+      "ts": 200382223530,
+      "tts": 964445
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -4000,
+            -69,
+            4747,
+            -69,
+            4747,
+            4415,
+            -4000,
+            4415
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 69,
+          "nodeName": "SECTION id='screen-home' class='screen active'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 1098,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 1078,
+      "tid": 11864,
+      "ts": 200382223608,
+      "tts": 964521
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 70,
+          "nodeName": "DIV class='verified-shield-icon'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 101,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 96,
+      "tid": 11864,
+      "ts": 200382223996,
+      "tts": 964899
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 72,
+          "nodeName": "A class='btn-build-resume'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 32,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 29,
+      "tid": 11864,
+      "ts": 200382224174,
+      "tts": 965071
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 73,
+          "nodeName": "DIV class='profile-avatar-badge'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 34,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 31,
+      "tid": 11864,
+      "ts": 200382224671,
+      "tts": 965567
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            0,
+            0,
+            747,
+            0,
+            747,
+            4984,
+            0,
+            4984
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 1,
+          "nodeName": "#document"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 955,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 943,
+      "tid": 11864,
+      "ts": 200382236551,
+      "tts": 970692
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -4000,
+            -69,
+            4747,
+            -69,
+            4747,
+            4915,
+            -4000,
+            4915
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 69,
+          "nodeName": "SECTION id='screen-home' class='screen active'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 895,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 885,
+      "tid": 11864,
+      "ts": 200382236601,
+      "tts": 970740
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 70,
+          "nodeName": "DIV class='verified-shield-icon'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 43,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 40,
+      "tid": 11864,
+      "ts": 200382236973,
+      "tts": 971107
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 72,
+          "nodeName": "A class='btn-build-resume'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 26,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 25,
+      "tid": 11864,
+      "ts": 200382237052,
+      "tts": 971183
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 73,
+          "nodeName": "DIV class='profile-avatar-badge'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 19,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 17,
+      "tid": 11864,
+      "ts": 200382237475,
+      "tts": 971607
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            0,
+            0,
+            747,
+            0,
+            747,
+            4984,
+            0,
+            4984
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 1,
+          "nodeName": "#document"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 649,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 640,
+      "tid": 11864,
+      "ts": 200382253807,
+      "tts": 975271
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 70,
+          "nodeName": "DIV class='verified-shield-icon'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 85,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 83,
+      "tid": 11864,
+      "ts": 200382254184,
+      "tts": 975649
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -23,
+            -368,
+            674,
+            -368,
+            674,
+            56,
+            -23,
+            56
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 74,
+          "nodeName": "DIV class='techmach-2fa-status-bar'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 78,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 77,
+      "tid": 11864,
+      "ts": 200382254274,
+      "tts": 975735
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 72,
+          "nodeName": "A class='btn-build-resume'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 36,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 34,
+      "tid": 11864,
+      "ts": 200382254357,
+      "tts": 975816
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 73,
+          "nodeName": "DIV class='profile-avatar-badge'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 19,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 17,
+      "tid": 11864,
+      "ts": 200382254423,
+      "tts": 975880
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            0,
+            0,
+            747,
+            0,
+            747,
+            4984,
+            0,
+            4984
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 1,
+          "nodeName": "#document"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 595,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 586,
+      "tid": 11864,
+      "ts": 200382270599,
+      "tts": 980209
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 70,
+          "nodeName": "DIV class='verified-shield-icon'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 79,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 78,
+      "tid": 11864,
+      "ts": 200382270926,
+      "tts": 980536
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -23,
+            -368,
+            674,
+            -368,
+            674,
+            56,
+            -23,
+            56
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 74,
+          "nodeName": "DIV class='techmach-2fa-status-bar'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 87,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 85,
+      "tid": 11864,
+      "ts": 200382271009,
+      "tts": 980617
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 72,
+          "nodeName": "A class='btn-build-resume'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 39,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 37,
+      "tid": 11864,
+      "ts": 200382271100,
+      "tts": 980705
+    },
+    {
+      "args": {
+        "data": {
+          "clip": [
+            -8388608,
+            -8388608,
+            8388607,
+            -8388608,
+            8388607,
+            8388607,
+            -8388608,
+            8388607
+          ],
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "layerId": 0,
+          "nodeId": 73,
+          "nodeName": "DIV class='profile-avatar-badge'"
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 17,
+      "name": "Paint",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 17,
+      "tid": 11864,
+      "ts": 200382271163,
+      "tts": 980765
+    }
+  ],
+  "layoutEvents": [
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 673,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 593,
+      "tid": 11864,
+      "ts": 200382221799,
+      "tts": 962797
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 653,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 623,
+      "tid": 11864,
+      "ts": 200382252415,
+      "tts": 973922
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 737,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 708,
+      "tid": 11864,
+      "ts": 200382268978,
+      "tts": 978640
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 615,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 616,
+      "tid": 11864,
+      "ts": 200382288014,
+      "tts": 983564
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 558,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 527,
+      "tid": 11864,
+      "ts": 200382385398,
+      "tts": 988982
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 568,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 569,
+      "tid": 11864,
+      "ts": 200382462776,
+      "tts": 994250
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 597,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 593,
+      "tid": 11864,
+      "ts": 200382474295,
+      "tts": 999449
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 567,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 569,
+      "tid": 11864,
+      "ts": 200382530516,
+      "tts": 1005376
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 514,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 515,
+      "tid": 11864,
+      "ts": 200382560926,
+      "tts": 1011077
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 568,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 552,
+      "tid": 11864,
+      "ts": 200382569775,
+      "tts": 1015041
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 549,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 542,
+      "tid": 11864,
+      "ts": 200382585194,
+      "tts": 1019813
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 521,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 523,
+      "tid": 11864,
+      "ts": 200382603667,
+      "tts": 1024389
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 566,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 567,
+      "tid": 11864,
+      "ts": 200382618125,
+      "tts": 1028802
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 538,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 539,
+      "tid": 11864,
+      "ts": 200382636904,
+      "tts": 1032912
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 580,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 580,
+      "tid": 11864,
+      "ts": 200382651665,
+      "tts": 1037527
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 512,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 515,
+      "tid": 11864,
+      "ts": 200382669227,
+      "tts": 1042257
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 512,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 514,
+      "tid": 11864,
+      "ts": 200382685149,
+      "tts": 1047972
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 715,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 627,
+      "tid": 11864,
+      "ts": 200382703750,
+      "tts": 1053328
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 470,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 472,
+      "tid": 11864,
+      "ts": 200382726823,
+      "tts": 1059048
+    },
+    {
+      "args": {
+        "beginData": {
+          "dirtyObjects": 13,
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2",
+          "partialLayout": false,
+          "totalObjects": 1423
+        },
+        "endData": {
+          "layoutRoots": [
+            {
+              "depth": 1,
+              "nodeId": 1,
+              "nodeName": "#document",
+              "quads": [
+                [
+                  0,
+                  0,
+                  762,
+                  0,
+                  762,
+                  484,
+                  0,
+                  484
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      "cat": "devtools.timeline",
+      "dur": 686,
+      "name": "Layout",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 669,
+      "tid": 11864,
+      "ts": 200382734847,
+      "tts": 1063052
+    }
+  ],
+  "styleRecalcEvents": [
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 474,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 472,
+      "tid": 11864,
+      "ts": 200382221311,
+      "tts": 962311
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 1
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 186,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 186,
+      "tid": 11864,
+      "ts": 200382227186,
+      "tts": 968028
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 13
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 607,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 593,
+      "tid": 11864,
+      "ts": 200382235007,
+      "tts": 969165
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 551,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 525,
+      "tid": 11864,
+      "ts": 200382251851,
+      "tts": 973385
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 744,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 616,
+      "tid": 11864,
+      "ts": 200382268222,
+      "tts": 978014
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 753,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 649,
+      "tid": 11864,
+      "ts": 200382287248,
+      "tts": 982903
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 752,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 645,
+      "tid": 11864,
+      "ts": 200382384635,
+      "tts": 988327
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 763,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 707,
+      "tid": 11864,
+      "ts": 200382462000,
+      "tts": 993532
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 823,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 735,
+      "tid": 11864,
+      "ts": 200382473455,
+      "tts": 998700
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 671,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 637,
+      "tid": 11864,
+      "ts": 200382529831,
+      "tts": 1004726
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 488,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 486,
+      "tid": 11864,
+      "ts": 200382560428,
+      "tts": 1010582
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 834,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 528,
+      "tid": 11864,
+      "ts": 200382568916,
+      "tts": 1014492
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 1003,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 846,
+      "tid": 11864,
+      "ts": 200382584178,
+      "tts": 1018955
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 1392,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 552,
+      "tid": 11864,
+      "ts": 200382602262,
+      "tts": 1023826
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 528,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 525,
+      "tid": 11864,
+      "ts": 200382617585,
+      "tts": 1028266
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 783,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 739,
+      "tid": 11864,
+      "ts": 200382636109,
+      "tts": 1032163
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 485,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 483,
+      "tid": 11864,
+      "ts": 200382651169,
+      "tts": 1037034
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 421,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 419,
+      "tid": 11864,
+      "ts": 200382668794,
+      "tts": 1041827
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 860,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 682,
+      "tid": 11864,
+      "ts": 200382684274,
+      "tts": 1047278
+    },
+    {
+      "args": {
+        "beginData": {
+          "frame": "30B49E19AEA00F229CC41E61FB98A0A2"
+        },
+        "elementCount": 14
+      },
+      "cat": "blink,devtools.timeline",
+      "dur": 592,
+      "name": "UpdateLayoutTree",
+      "ph": "X",
+      "pid": 21604,
+      "tdur": 548,
+      "tid": 11864,
+      "ts": 200382703146,
+      "tts": 1052769
+    }
+  ]
+}

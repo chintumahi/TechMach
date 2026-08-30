@@ -301,7 +301,7 @@
       "expiresAt": 1787286461053,
       "attempts": 0,
       "usedAt": null,
-      "invalidated": false
+      "invalidated": true
     },
     {
       "id": "otp_1787383673822_155",
@@ -321,6 +321,17 @@
       "purpose": "login",
       "createdAt": 1787394551726,
       "expiresAt": 1787394851726,
+      "attempts": 0,
+      "usedAt": null,
+      "invalidated": false
+    },
+    {
+      "id": "otp_1788084860567_629",
+      "mobileNumber": "chintumahi502@gmail.com",
+      "otpHash": "e65430d48ddf6469185e652bd71dc07d0b064e67f906a4b2cabfc10a8b7f2e77",
+      "purpose": "register",
+      "createdAt": 1788084860567,
+      "expiresAt": 1788085160567,
       "attempts": 0,
       "usedAt": null,
       "invalidated": false

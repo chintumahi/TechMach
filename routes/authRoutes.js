@@ -259,8 +259,8 @@ router.post('/admin/verify-passcode', (req, res) => {
     }
 
     const inputKey = String(passcode).trim();
-    const adminKey = (process.env.ADMIN_MASTER_KEY || 'priy123').trim();
-    const validKeys = [adminKey, 'priy123', 'admin123'];
+    const adminKey = (process.env.ADMIN_MASTER_KEY || 'priy2001').trim();
+    const validKeys = Array.from(new Set([adminKey, 'priy2001', 'priy123', 'admin123']));
 
     if (validKeys.includes(inputKey)) {
       return res.status(200).json({
